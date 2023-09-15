@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+main .cart-container {
+    height: 100vh;
+}
+.cart-container p {
+    font-size: 23px;
+    font-weight: 600;
+}

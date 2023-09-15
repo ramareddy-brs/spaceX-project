@@ -1,0 +1,50 @@
+body {
+    padding-top: 3rem;
+  }
+header {
+    background-image: url("../assets/images/header-bg.png");
+    background-size: cover;
+    height: 80vh;   
+}
+.hoveredImage {
+    display: none;
+}
+  
+.featuredHoveredImg:hover .hoveredImage{
+    display: block;
+}
+.featuredHoveredImg:hover .nonHoveredImage {
+    display: none;
+}
+.featureContent h4 {
+    font-size: 24px;
+}
+  
+.featureContent p {
+    font-size: 14px;
+}
+  
+.btn-featured {
+    font-size: 16px;
+    font-weight: 400;
+}
+.categoriesButton {
+    position: absolute;
+    bottom: 90px;
+    display: block;
+    background-color: #ffffff;
+    left: 50px;
+}
+.categoriesButton:hover {
+    border: 2px solid #ffffff;
+    color: white;
+}
+.featureContentDarkbg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+}

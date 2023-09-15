@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding-top: 100px;
+}
+.productContent h4 {
+    font-size: 18px;
+    font-weight: 100;
+}
+.productContentImg img:hover {
+    border: 2px solid black;
+}
